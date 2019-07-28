@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #14171c;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 15s linear;
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.logo>img {
+  vertical-align: middle
+}
+
+.card-content h3 {
+  font-size: 1.4rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-news {
+  padding: 2rem;
+  border-radius: 1rem;  
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.search {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.search label {
+  font-size: 2rem;
+  color: black;
+}
+
+.dropdown-content li>span {
+  color: black;
+}
+
+.select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #61dafb!important;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-action .btn {
+  width: 100%;
+}
+
+.enviar input[type="submit"] {
+  width: 100%;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: scale(1.25);
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: all .5s ease-in;
+  transform: scale(1);
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: scale(1.25);
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: all .5s ease-in;
+  transform: scale(1);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
